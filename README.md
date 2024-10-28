@@ -9,3 +9,30 @@ The miniRT project involves creating a raytracer that models images based on a d
 
 The scene description must adhere to specific formatting rules, with elements defined uniquely and able to appear in any order. The program should gracefully handle file operations and display the rendered scene efficiently.
 
+![dragon](image/dragon.png)
+
+![mew](image/mew.png)
+
+## Installation
+Clone the repository.
+
+To perform the initial setup of the project, you can run the following commands:
+
+```bash
+make
+```
+To run the program, you need to execute the following command line(You can test it with all the files in the 'scene/' directory):
+```bash
+./miniRT scenes/cyl.rt
+```
+To perform the bonus setup of the project, you can run the following commands:
+
+```bash
+make bonus
+```
+To run the program, you need to execute the following command line(You can test it with all the files in the 'scene/bonus/' directory):
+```bash
+./miniRT_bonus scenes/bonus/cyl.rt
+```
+
+
